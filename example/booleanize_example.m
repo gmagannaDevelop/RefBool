@@ -17,7 +17,7 @@
 
 %% 
 % Initialize background and load file to booleanize
-background_genes = readtable('GeneOrderReference_CoTFCRF.txt', ...,
+background_genes = readtable('RefBool_ReferenceDistributions/background_genes.txt', ...,
     'delimiter','\t', 'ReadVariableNames',false );
 
 gNames = background_genes.(1);
