@@ -1,3 +1,5 @@
 ### macOS ###
 *.DS_Store
 example/RefBool_ReferenceDistributions/
+ssh-utils/
+src/allfitdist.m
